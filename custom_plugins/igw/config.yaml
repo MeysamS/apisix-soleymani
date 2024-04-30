@@ -1,0 +1,23 @@
+bearer_tokens_option:
+  Key: "08BD30A63D6EB2C6B9C8226EDFEDF3ED6322FDD2AC6A8867FA1772D365E2B8B3A3B23AAD0196FA0BEB159C21C3F8D6E09252F3F174FF22A742E711F3ED45F1FC"
+  Issuer: "chekam"
+  Audience: "chekam.uaa"
+  AccessTokenExpirationMinutes: 60
+  RefreshTokenExpirationMinutes: 120
+  AllowMultipleLoginsFromTheSameUser: false
+  AllowSignoutAllUserActiveClients: true
+
+mssql_options:
+  host: "172.30.40.61"
+  port: 1433
+  database: "Uaa-Db"
+  user: "sa"
+  password: "admin@123"
+  ssl: true
+  max_packet_size: 1048576
+  timeout: 5000
+
+    # "ConnectionString": "Data Source=localhost;Database=uaa-db-v2;User ID=sa;Password=DdUu@123456;trustServerCertificate=true"    
+
+
+
